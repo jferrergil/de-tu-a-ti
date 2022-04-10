@@ -9,7 +9,7 @@ const Acompañamiento = () => {
             <p className='text-4xl font-bold inline border-b-4 border-[#4FECA5] mt-6'>Acompañamiento terapéutico</p>
             <p className='py-4' >Posible descripción de la terapia</p>
         <div>
-            <div>
+            <div className='w-full grid grid-cols-1 sm:grid-cols-2 text-center py-8'>
                 <img className='w-50 mx-auto' src={centroDia} alt='foto acompañamiento' />
             </div>
         </div>
